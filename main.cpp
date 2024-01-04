@@ -375,7 +375,6 @@ const char* getCategory(const char* utf8Char) {
     if (codepoint >= 0x0000 && codepoint <= 0x007F) {
         return "Basic Latin";
     } else if (codepoint >= 0x0080 && codepoint <= 0x00FF) {
-        // Add more categories as needed
         return "Latin-1 Supplement";
     } else if (codepoint >= 0x0100 && codepoint <= 0x017F) {
         return "Latin Extended-A";
